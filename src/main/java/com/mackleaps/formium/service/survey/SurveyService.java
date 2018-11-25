@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class SurveyService implements ISurveyService {
 
-    private SurveyRepository surveyRepository;
+    private final SurveyRepository surveyRepository;
     private SurveyResultsRepository surveyResultsRepository;
 
     @Autowired
